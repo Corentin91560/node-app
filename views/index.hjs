@@ -7,12 +7,12 @@
   <body>
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
-  </br>
-  <form action="/ville" method="post">
-    <label>Rentrer le nom de la ville </label>
-    <input type="text" name="nom_ville">
-    <textarea name="description" rows="8" cols="80"></textarea>
-    <input type="submit" value="envoyer">
-  </form>
+
+    <form action="/ville" method="post">
+      <label>Insert city name here : </label>
+      <input type="text" name="nom_ville" value="">
+      <input type="submit" value="Ok">
+    </form>
+
   </body>
 </html>
