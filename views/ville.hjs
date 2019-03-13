@@ -5,7 +5,11 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <h1>ville</h1>
     <p>Welcome to {{ nom_ville }}</p>
+    <p>
+        description : {{ description }}
+    </p>
   </br>
   </form>
   </body>
